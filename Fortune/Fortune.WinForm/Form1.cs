@@ -22,7 +22,7 @@ namespace Fortune.WinForm
             var name = uiName.Text;
             if (string.IsNullOrWhiteSpace(name))
             {
-                MessageBox.Show("请输入名字！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("请输入你的名字！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
